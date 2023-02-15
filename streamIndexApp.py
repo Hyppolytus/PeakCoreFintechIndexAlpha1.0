@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load data from CSV file
-df = pd.read_csv('StockDataAPI3/hist_index_value.csv')
+df = pd.read_csv('hist_index_value.csv')
 df['date'] = pd.to_datetime(df['date'])
 
 # Define the Streamlit app
